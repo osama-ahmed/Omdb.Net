@@ -20,7 +20,7 @@ namespace Omdb.Net.Tests
             Assert.IsTrue(result.Search.Count > 0);
             Assert.IsNotNull(result.Search.First().Title);
             Assert.IsTrue(result.Search.Where(r => r.Title.ToLower().Contains("the lord of the")).Count() > 0);
-            Assert.IsNotNull(result.Search.First().ImdbId);
+            Assert.IsNotNull(result.Search.First().imdbID);
             Assert.IsNotNull(result.Search.First().Type);
             Assert.IsNotNull(result.Search.First().Year);
         }

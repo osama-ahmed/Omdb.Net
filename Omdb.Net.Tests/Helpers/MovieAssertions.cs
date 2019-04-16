@@ -19,9 +19,9 @@ namespace Omdb.Net.Tests.Helper
             Assert.IsNotNull(movieToTest.Country);
             Assert.IsNotNull(movieToTest.Director);
             Assert.IsNotNull(movieToTest.Genre);
-            Assert.IsNotNull(movieToTest.ImdbId);
-            Assert.IsNotNull(movieToTest.ImdbRating);
-            Assert.IsNotNull(movieToTest.ImdbVotes);
+            Assert.IsNotNull(movieToTest.imdbID);
+            Assert.IsNotNull(movieToTest.imdbRating);
+            Assert.IsNotNull(movieToTest.imdbVotes);
             Assert.IsNotNull(movieToTest.Language);
             Assert.IsNotNull(movieToTest.Metascore);
             Assert.IsNotNull(movieToTest.Plot);

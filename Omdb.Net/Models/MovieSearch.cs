@@ -11,7 +11,8 @@ namespace Omdb.Net.Models
     {
         public string Title;
         public string Year;
-        public string ImdbId;
+        public string imdbID;
         public string Type;
+        public string Poster;
     }
 }

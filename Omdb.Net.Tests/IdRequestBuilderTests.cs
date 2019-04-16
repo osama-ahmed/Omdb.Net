@@ -21,7 +21,7 @@ namespace Omdb.Net.Tests
             Assert.IsTrue(result.Title.ToLower().Contains("lord"));
             MovieAssert.AssertMovieProperties(result);
             //when "Tomatoes" option is no used then the property is null
-            Assert.IsNull(result.Tomatoes);
+            Assert.IsNull(result.Ratings);
         }
 
         [TestMethod]
@@ -32,9 +32,9 @@ namespace Omdb.Net.Tests
 
             var result = Task.Run(() => response).Result;
             Assert.IsNotNull(result); 
-            Assert.IsNotNull(result.Tomatoes);
+            Assert.IsNotNull(result.Ratings);
             MovieAssert.AssertMovieProperties(result);
-            MovieAssert.AssertTomoatoesProperties(result.Tomatoes);
+            MovieAssert.AssertTomoatoesProperties(result.Ratings);
         }
 
         [TestMethod]

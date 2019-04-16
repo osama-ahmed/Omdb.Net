@@ -22,7 +22,7 @@ namespace Omdb.Net.Tests
             Assert.IsFalse(string.IsNullOrEmpty(result.Actors));
             MovieAssert.AssertMovieProperties(result);
             //Tomatoes should be null as option not chosen
-            Assert.IsNull(result.Tomatoes);
+            Assert.IsNull(result.Ratings);
         }
 
         [TestMethod]
@@ -37,7 +37,7 @@ namespace Omdb.Net.Tests
             Assert.AreEqual(2001, result.Year);
             MovieAssert.AssertMovieProperties(result);
             //Tomatoes should be null as option not chosen
-            Assert.IsNull(result.Tomatoes);
+            Assert.IsNull(result.Ratings);
         }
 
         [TestMethod]
@@ -49,9 +49,9 @@ namespace Omdb.Net.Tests
             var result = Task.Run(() => response).Result;
 
             Assert.IsNotNull(result);
-            Assert.IsNotNull(result.Tomatoes);
+            Assert.IsNotNull(result.Ratings);
             MovieAssert.AssertMovieProperties(result);
-            MovieAssert.AssertTomoatoesProperties(result.Tomatoes);
+            MovieAssert.AssertTomoatoesProperties(result.Ratings);
         }
 
         [TestMethod]

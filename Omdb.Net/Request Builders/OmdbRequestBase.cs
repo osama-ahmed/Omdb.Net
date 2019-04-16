@@ -17,19 +17,27 @@ namespace Omdb.Net.RequestBuilder
         protected OmdbRequestBase()
         {
             _httpClient = new HttpClient();
-            _uriBuilder = new UriBuilder("http://www.omdbapi.com/?");
+            _uriBuilder = new UriBuilder("http://www.omdbapi.com/?apikey=30029aef&");
             _queryString = HttpUtility.ParseQueryString(_uriBuilder.Query);
             _queryString.AddDataType();
         }
 
         protected async Task<T> RetrieveMovieData<T>()
         {
-            _uriBuilder.Query = _queryString.ToString();
-            using (HttpResponseMessage response = await _httpClient.GetAsync(_uriBuilder.ToString()))
-            using (HttpContent content = response.Content)
+            try
             {
-                string result = await content.ReadAsStringAsync();
-                return JsonConvert.DeserializeObject<T>(result);
+                _uriBuilder.Query = _queryString.ToString();
+                using (HttpResponseMessage response = await _httpClient.GetAsync(_uriBuilder.ToString()))
+                using (HttpContent content = response.Content)
+                {
+                    string result = await content.ReadAsStringAsync();
+                    return JsonConvert.DeserializeObject<T>(result);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
             }
         }
     }

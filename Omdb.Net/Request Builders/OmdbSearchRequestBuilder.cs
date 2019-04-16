@@ -21,9 +21,10 @@ namespace Omdb.Net.RequestBuilder
             return this;
         }
 
-        public Task<MovieSearch> MakeRequest()
+        public async Task<MovieSearch> MakeRequest()
         {
-            return RetrieveMovieData<MovieSearch>();
+            var result = await RetrieveMovieData<MovieSearch>();
+            return result;
         }
     }
 }

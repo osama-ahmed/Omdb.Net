@@ -12,7 +12,7 @@ namespace Omdb.Net.Helpers
         {
             Mapper.CreateMap<FlatMovie, Tomatoes>();
             Mapper.CreateMap<FlatMovie, Movie>()
-                .ForMember(dest => dest.Tomatoes, opt => opt.MapFrom(src => src.ReturnShiz()));
+                .ForMember(dest => dest.Ratings, opt => opt.MapFrom(src => src.ReturnShiz()));
 
             return Mapper.Map<Movie>(movie);
         }

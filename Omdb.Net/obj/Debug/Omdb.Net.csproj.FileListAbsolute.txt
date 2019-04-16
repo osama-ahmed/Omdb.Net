@@ -8,3 +8,13 @@ C:\Users\martin\Documents\Visual Studio 2013\Projects\Omdb.Net\Omdb.Net\bin\Debu
 C:\Users\martin\Documents\Visual Studio 2013\Projects\Omdb.Net\Omdb.Net\obj\Debug\Omdb.Net.csprojResolveAssemblyReference.cache
 C:\Users\martin\Documents\Visual Studio 2013\Projects\Omdb.Net\Omdb.Net\obj\Debug\Omdb.Net.dll
 C:\Users\martin\Documents\Visual Studio 2013\Projects\Omdb.Net\Omdb.Net\obj\Debug\Omdb.Net.pdb
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\bin\Debug\AutoMapper.Net4.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\bin\Debug\Omdb.Net.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\bin\Debug\Omdb.Net.pdb
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\bin\Debug\AutoMapper.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\bin\Debug\Newtonsoft.Json.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\bin\Debug\AutoMapper.xml
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\bin\Debug\Newtonsoft.Json.xml
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\obj\Debug\Omdb.Net.csprojResolveAssemblyReference.cache
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\obj\Debug\Omdb.Net.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net\obj\Debug\Omdb.Net.pdb

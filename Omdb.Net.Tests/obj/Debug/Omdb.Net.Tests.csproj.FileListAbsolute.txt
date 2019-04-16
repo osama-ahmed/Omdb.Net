@@ -10,3 +10,16 @@ C:\Users\martin\Documents\Visual Studio 2013\Projects\Omdb.Net\Omdb.Net.Tests\ob
 C:\Users\martin\Documents\Visual Studio 2013\Projects\Omdb.Net\Omdb.Net.Tests\bin\Debug\AutoMapper.dll
 C:\Users\martin\Documents\Visual Studio 2013\Projects\Omdb.Net\Omdb.Net.Tests\bin\Debug\AutoMapper.xml
 C:\Users\martin\Documents\Visual Studio 2013\Projects\Omdb.Net\Omdb.Net.Tests\bin\Debug\AutoMapper.Net4.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\Omdb.Net.Tests.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\Omdb.Net.Tests.pdb
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\Omdb.Net.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\AutoMapper.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\Newtonsoft.Json.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\Omdb.Net.pdb
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\AutoMapper.xml
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\Newtonsoft.Json.xml
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\obj\Debug\Omdb.Net.Tests.csprojResolveAssemblyReference.cache
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\obj\Debug\Omdb.Net.Tests.dll
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\obj\Debug\Omdb.Net.Tests.pdb
+E:\output\My-Projects\C#\Omdb.Net\Omdb.Net.Tests\bin\Debug\AutoMapper.Net4.dll
